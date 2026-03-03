@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height:100%;
+    width:100%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(255,250,247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+}
+
+main section h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}

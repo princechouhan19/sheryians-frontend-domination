@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Sheryians Cohort Notes and Practice">
+    <meta property="og:title" content="Sheryians Learning Progress">
+    
+    <title>Sheryians Cohort - Advanced HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1>Sheryians Cohort 2.0</h1>
+        <nav>
+            <ul>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="media">
+            <h2>Multimedia Elements</h2>
+            
+            <h3>Class Recording</h3>
+            <video controls width="500" poster="thumbnail.jpg">
+                <source src="class-video.mp4" type="video/mp4">
+                <track src="captions.vtt" kind="captions" srclang="en" label="English">
+                Your browser does not support the video tag.
+            </video>
+
+            <h3>Podcast Episode</h3>
+            <audio controls>
+                <source src="podcast.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>YouTube Reference</h3>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube video player" 
+                loading="lazy" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <hr>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>What is the duration of the course?</summary>
+                <p>The course runs for approximately 6 months.</p>
+            </details>
+
+            <details>
+                <summary>Is there a refund policy?</summary>
+                <p>Yes, refunds are available within the first 14 days.</p>
+            </details>
+        </section>
+
+        <hr>
+
+        <section id="schedule">
+            <h2>Course Schedule</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Day 1-4</td>
+                        <td>Networking</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Day 5</td>
+                        <td>Git & GitHub</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Day 8-9</td>
+                        <td>HTML5</td>
+                        <td>In Progress</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="preferences">
+            <h2>User Preferences</h2>
+            <form action="/save" method="post">
+                
+                <label for="location">Select Region:</label>
+                <select id="location" name="location">
+                    <optgroup label="Asia">
+                        <option value="in">India</option>
+                        <option value="jp">Japan</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option value="uk">United Kingdom</option>
+                        <option value="de">Germany</option>
+                    </optgroup>
+                </select>
+
+                <button type="submit">Save</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Prince Chouhan. Learned at Sheryians Coding School.</p>
+    </footer>
+
+</body>
+</html>

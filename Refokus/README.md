@@ -1,21 +1,74 @@
-# Refokus – Project Overview
+# 🌐 Refokus – Premium Agency Clone
 
-<h3>Technologies Used</h3>
+A high-end, responsive agency website clone built with **React** and **Tailwind CSS**, featuring sophisticated motion design driven by **Framer Motion** and **Locomotive Scroll**.
 
-<div>
-  <img alt="React" src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white">
-  <img src="https://img.shields.io/badge/-Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img alt="Framer Motion" src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white">
-  <img alt="Vue" src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white">
-</div>
+Developed by **[Prince Chouhan](https://github.com/princechouhan19)**.
 
-A modern, responsive frontend built with React & Vue, styled via Tailwind CSS, animated with Framer Motion, and fully typed in TypeScript.
+[![Live Project](https://img.shields.io/badge/Live%20Project-Explore%20Now-blue?style=for-the-badge&logo=appveyor)](https://refokus-clone-prince.netlify.app/)
+[![Refokus Logo](https://cdn.brandfetch.io/idZgdi6uSQ/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B)](https://refokus-clone-prince.netlify.app/)
+
+---
+
+## ✨ Features
+
+- **🚀 Performance Optimization:** Built with Vite for lightning-fast development and optimized production builds.
+- **🎨 Sophisticated UI:** Pixel-perfect implementation of the Refokus agency design system.
+- **🎭 Motion & Interactivity:**
+  - **Framer Motion:** Powering complex entrance animations, hover effects, and layout transitions.
+  - **Locomotive Scroll:** Ensuring smooth, inertial scrolling across the entire application.
+  - **Dynamic Marquees:** Smooth-looping brand and service marquees.
+- **📱 Fully Responsive:** Adaptive layouts designed carefully for all screen sizes.
+- **🧩 Component-Based:** Highly modular architecture with reusable Buttons, Cards, and Section components.
+
+---
+
+## 🛠️ Technical Stack
+
+- **Framework:** [React 19](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Smooth Scroll:** [Locomotive Scroll](https://github.com/locomotivemtl/locomotive-scroll)
+- **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+
+---
+
+## 📽️ Project Showcase
+
+<video src="public/Refokus.mp4" controls width="100%"></video>
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/princechouhan19/SHERIANS-FROENTEND-DOMINATION.git
+   cd Refokus
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🤝 Connect with Me
 
 <a href="https://www.linkedin.com/in/prince-chouhan-040552276/" target="_blank">
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-<video src="public/Refokus.mp4" controls></video>
+---
 
-**Live Project:** [https://refokus-clone-prince.netlify.app/](https://refokus-clone-prince.netlify.app/)  
-**Logo:** [![Refokus Logo](https://cdn.brandfetch.io/idZgdi6uSQ/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B)](https://refokus-clone-prince.netlify.app/)
+<p align="center">Made with ❤️ for High-End Web Design</p>

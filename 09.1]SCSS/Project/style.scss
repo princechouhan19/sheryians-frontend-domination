@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@mixin flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    @include flex;
+    gap: 20px;
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-color: red;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;   
+    }
+
+    section:hover{
+        flex-grow: 2;
+        transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        cursor: pointer;
+    }
+
+    section:nth-child(1){
+        background-image:url('./assets/giyu.jpg');
+    }
+
+    section:nth-child(2){
+        background-image:url('./assets/Demon\ Slayer.jpg');
+    }
+
+    section:nth-child(3){
+        background-image:url('./assets/Mitsuri\ Kanroji.jpg');
+    }
+
+    section:nth-child(4){
+        background-image:url('./assets/Tengen\ Uzui.jpg');
+    }
+
+    section:nth-child(5){
+        background-image:url('./assets/the\ insect\ I\ love\ the\ most💙.jpg');
+    }
+}

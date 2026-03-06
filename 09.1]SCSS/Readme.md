@@ -1,4 +1,7 @@
-# SCSS
+# SCSS (Sassy Cascading Style Sheets)
+
+SCSS is a preprocessor for CSS that makes writing styles more efficient and powerful. It introduces advanced features such as **Nesting**, **Mixins**, and **Partials**, allowing you to write cleaner, more modular, and maintainable code.
+
 
 - Nesting
     In SCSS , you can write selectors inside another selector.
@@ -94,4 +97,6 @@
     @import "filename";
     ```
 
+## Project Showcase
+![SCSS Project Showcase](../Project-Showcase/9.1]SCSS-PROJECT.gif)
     
